@@ -20,6 +20,14 @@ this is a script (currently only for linux) where you execute a script that gene
 * `move.sh` where is `OUTDIR` change to the project you want the output files to be
 
 
-## EXTRA
+## Extra
+
+I've added inside the `base` folder a script called `create_class.sh` which means when you create a project the script is copied to your project folder, the name itself describes what it does, it create a new class and already reagister it on `register_types.cpp` which means you can add classes faster now:
+* on terminal type `./create_class.sh`
+* Will be asked for class name
+* Then which class your class extends from i.e Control,Node....
+* Done
+
+## HELP
 
 If you understand windows `.bat`, and want to convert the .sh scripts for windows, your PR is very welcome!

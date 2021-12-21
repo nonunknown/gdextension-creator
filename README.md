@@ -18,3 +18,8 @@ this is a script (currently only for linux) where you execute a script that gene
 * at last it will tell you to moodify `build.sh` and `move.sh`
 * `build.sh` will build your project
 * `move.sh` where is `OUTDIR` change to the project you want the output files to be
+
+
+## EXTRA
+
+If you understand windows `.bat`, and want to convert the .sh scripts for windows, your PR is very welcome!

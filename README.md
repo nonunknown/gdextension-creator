@@ -1,6 +1,6 @@
 # GDExtension Project Creator
 
-this is a script (currently only for linux) where you execute a script that generates a base project for your gdextension
+this is a script (currently only for linux) where you execute a script that generates a base project for your gdextension, it setups all base files needed for the most basic of gdextension.
 
 ## Installation
 

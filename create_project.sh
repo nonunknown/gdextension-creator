@@ -69,7 +69,7 @@ sed -i "s/$search_project_upper/$projectUpper/g" $fileRegisterHeader
 
 mv "${project,,}/src/example.h" "${project,,}/src/${classNameLower}.h"
 mv "${project,,}/src/example.cpp" "${project,,}/src/${classNameLower}.cpp"
-
+mv "${project,,}/base.gdextension" "${project,,}/${project,,}.gdextension"
 
 printf "\n\nYour project has been created successfully!"
 

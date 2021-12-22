@@ -4,7 +4,7 @@ this is a script (currently only for linux) where you execute a script that gene
 
 ## News
 
-* fix bug: `create_project.sh` notn renaming the `.gdextenstion` file
+* fix bug: `create_project.sh` not renaming the `.gdextenstion` file
 
 ## Installation
 

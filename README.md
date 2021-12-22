@@ -2,6 +2,10 @@
 
 this is a script (currently only for linux) where you execute a script that generates a base project for your gdextension, it setups all base files needed for the most basic of gdextension.
 
+## News
+
+* fix bug: `create_project.sh` notn renaming the `.gdextenstion` file
+
 ## Installation
 
 * Download godot-cpp -> https://github.com/godotengine/godot-cpp

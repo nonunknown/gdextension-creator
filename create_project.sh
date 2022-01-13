@@ -73,4 +73,4 @@ mv "${project,,}/base.gdextension" "${project,,}/${project,,}.gdextension"
 
 printf "\n\nYour project has been created successfully!"
 
-printf "\n\nPlease modify ${project}/build.sh and ${project}/move.sh to output your compiled files correcly"
+printf "\n\nPlease modify ${project,,}/build.sh and ${project,,}/move.sh to output your compiled files correcly"

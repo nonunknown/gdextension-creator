@@ -162,6 +162,10 @@ elif env["platform"] == "windows":
             env["AR"] = "i686-w64-mingw32-ar"
             env["RANLIB"] = "i686-w64-mingw32-ranlib"
             env["LINK"] = "i686-w64-mingw32-g++"
+        # DLLs seem to be given a .so file extension even though they are DLLs unless
+        # you specify the extension
+        env["SHLIBSUFFIX"] = ".dll"
+
 
     elif host_platform == "windows" and env["use_mingw"]:
         # Don't Clone the environment. Because otherwise, SCons will pick up msvc stuff.
